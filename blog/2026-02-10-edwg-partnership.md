@@ -49,7 +49,7 @@ The announcement at this prestigious event underscores the importance of this pa
 ## What is not happening now
 
 - **Eclipse Tractus-X remains sovereign** as a project under the Eclipse Foundation Governance as always and has the total freedom to choose its roadmap, features, which additional protocols to adopt and scope.
-- **The EDWG has no "governance" over Eclipse Tractus-X** - The collaboration is a mutual agreement between Eclipse Tractus-X and the Eclipse Dataspace Working Group (EDWG), which can be finalized at anytime, however by having this partnership both parties can benefit from this agreement. The "governance" over Eclipse Tractus-X continues to be the rules from the Eclipse Foundation and the TRGs (Tractus-X Release Guidelines) which are the rules of the Eclipse Tractus-X project.
+- **The EDWG has no "governance" over Eclipse Tractus-X** - The collaboration is a mutual agreement between Eclipse Tractus-X and the Eclipse Dataspace Working Group (EDWG), which can be finalized at any time, however by having this partnership both parties can benefit from this agreement. The "governance" over Eclipse Tractus-X continues to be the rules from the Eclipse Foundation and the TRGs (Tractus-X Release Guidelines) which are the rules of the Eclipse Tractus-X project.
 
 ## Looking Ahead
 
