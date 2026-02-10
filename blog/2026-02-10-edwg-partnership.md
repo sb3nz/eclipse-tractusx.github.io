@@ -44,7 +44,7 @@ It's no secret that Eclipse Tractus-X has been at the forefront of implementing 
 - **The Dataspace Protocol (DSP)** - already deeply integrated into our technology stack
 - **The Decentralized Claims Protocol (DCP)** - actively adopted and utilized across our implementations
 
-The announcement at this prestigious event underscores the importance of this partnership and our shared commitment to advancing the dataspace ecosystem on an international scale. And as a project under the governance of the eclipse foundation, we are committed to continue to push the adoption of open standards developed at our foundation.
+The announcement at this prestigious event underscores the importance of this partnership and our shared commitment to advancing the dataspace ecosystem on an international scale. And as a project under the governance of the Eclipse Foundation, we are committed to continue to push the adoption of open standards developed at our foundation.
 
 ## What is not happening now
 
