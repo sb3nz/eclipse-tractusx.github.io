@@ -67,4 +67,4 @@ We're proud to be present at the **Eclipse Dataspace Working Group booth** throu
 
 ---
 
-*Want to learn more about Eclipse Tractus-X or get involved? Visit our [community page](/community) or join our [open meetings](/community/open-meetings).*
+*Want to learn more about Eclipse Tractus-X or get involved? Visit our [community page](/community/intro) or join our [open meetings](/community/open-meetings).*
