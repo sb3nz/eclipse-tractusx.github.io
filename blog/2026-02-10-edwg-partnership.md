@@ -24,7 +24,7 @@ Making this announcement at the Dataspace Symposium—bringing together industry
 
 <!-- truncate -->
 
-![alt text](IMG_5203.jpeg)
+![Photo from Dataspace Symposium 2026 in Madrid](IMG_5203.jpeg)
 
 ## What Does This Collaboration Mean?
 
