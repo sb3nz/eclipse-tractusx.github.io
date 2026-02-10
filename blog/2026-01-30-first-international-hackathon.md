@@ -2,7 +2,7 @@
 title: First International Eclipse Tractus-X Hackathon in Spain 🇪🇸
 description: Join us for the first international open source hackathon of Eclipse Tractus-X in Bilbao, Spain!
 slug: first-international-hackathon
-date: 2026-02-17T09:00
+date: 2026-01-30T09:00
 hide_table_of_contents: false
 authors:
   - mikel_garcia
@@ -10,7 +10,6 @@ authors:
   - bjoern_roy
   - stephan_bauer
 ---
-
 ![img](IMG_4856.jpeg)
 
 Hi Everyone 👋,
