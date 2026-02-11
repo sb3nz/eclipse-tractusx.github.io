@@ -77,7 +77,7 @@ For a synchronous data providing/consuming please find the basics for digital tw
 
 ### Cascading request/response process in case of non-existing PCF data in the supply chain
 
-![PCF Request and Response](resources/adoption-view/PCFRequestandResponse.png)
+![PCF Request and Response](./resources/adoption-view/PCFRequestandResponse.png)
 
 In the real world, this will not be implemented this way, at least in the short and medium term. It can be assumed that this process and information chain will break down at certain points in the supply chain. There, data is not requested, but calculated using secondary data, as is standard procedure these days. There can be various reasons for this:
 
@@ -90,7 +90,7 @@ However, it is important that a PCF value reported from a supplier to its custom
 - indirect emissions from purchased energy ("Scope 2")
 - upstream emissions caused by purchased products from the upstream supply chain ("Scope 3")
 
-![Scope of Catena-X Use Case](resources/adoption-view/ScopeofCatena-XUseCase.png)
+![Scope of Catena-X Use Case](./resources/adoption-view/ScopeofCatena-XUseCase.png)
 
 The data for direct and indirect emissions will usually come from internal data sources, as these emission-shares are generated in the supplier's own production system. The upstream emissions ("Scope 3") can either be requested from the respective sub-supplier or could be calculated, e.g. by using information from eco-databases. Putting all together, the transparency on the PCF for a given part or component is created through a cascade of top-to-bottom PCF requests, and a cascade of aggregated PCF data from bottom to top.
 
@@ -98,7 +98,7 @@ The data for direct and indirect emissions will usually come from internal data 
 
 #### 1.The following journey describes the exchange of PCF data in an **asynchronous** request/response process
 
-![PCF Data Exchange Overview](resources/adoption-view/PCFDataExchangeOverview.png)
+![PCF Data Exchange Overview](./resources/adoption-view/PCFDataExchangeOverview.png)
 
 PCF data is exchanged between a data consumer (e.g., supplier on tier n) and a data provider (e.g., supplier on tier n+1). It is basically an asynchronous request/response process that is started by the data consumer:
 
@@ -125,7 +125,7 @@ For the data provider, the process is now over, and the consumer's request has b
 
 #### 2. The following customer journey describes the exchange of PCF data in a **synchronous** way
 
-![PCFdata_exchange_synchr.way](resources/adoption-view/PCFdata_exchange_synchr.way.png)
+![PCFdata_exchange_synchr.way](./resources/adoption-view/PCFdata_exchange_synchr.way.png)
 
 The PCF data is exchanged between a data consumer and a data provider. The data consumer starts the request with steps as follows:
 
@@ -137,7 +137,7 @@ The PCF data is exchanged between a data consumer and a data provider. The data 
 
 This customer journey describes the calculation of a PCF in compliance with the [Catena-X PCF Rulebook](https://catenax-ev.github.io/docs/non-functional/overview#product-carbon-footprint) with some of the required data obtained via the Catena-X network.
 
-![PCF Calculation](resources/adoption-view/PCFCalculation.png)
+![PCF Calculation](./resources/adoption-view/PCFCalculation.png)
 
 The calculation process will often be triggered by an incoming PCF request (see subjourney "[PCF data exchange](#customer-journey-pcf-data-exchange)"). But of course, a PCF calculation can also be carried out proactively without a corresponding request via PCF Request.
 To determine a PCF, an appropriate calculation tool is usually used, which guides the user through the process and ensures that all relevant data is taken into account. We will limit ourselves here to a generic, tool-independent presentation of the most important steps.
@@ -196,7 +196,7 @@ The following illustration describes the logical structure of the Catena-X PCF d
 <details>
   <summary>PCF Data Model structure</summary>
 
-![PCF Data Model Structure Release 25.09](resources/adoption-view/pcf-data-model-structure-release-25.09.svg)
+![PCF Data Model Structure Release 25.09](./resources/adoption-view/pcf-data-model-structure-release-25.09.svg)
 
 </details>
 
@@ -330,7 +330,7 @@ M - Mandatory, D - Defaultet, O - Optional, Mif - Mandatory under conditions, Oi
 >**Note**
 >Optional fields for emission values must not be interpreted as 0 when not available in the payload because this would lead to wrong assumptions about the Product Carbon Footprint.
 
-The complete description of the Catena-X PCF Data Model can be downloaded [here](resources/adoption-view/cx-pcf-data-model-V3.0.0.xlsx).
+The complete description of the Catena-X PCF Data Model can be downloaded [here](./resources/adoption-view/cx-pcf-data-model-V3.0.0.xlsx).
 
 #### Example Payload
 
@@ -498,7 +498,7 @@ In order to ensure **interoperability**, as described in the section on [Semanti
 To enable **data sovereignty**, Catena-X relies on **Self-Sovereign-Identity** (SSI). This allows data providers to precisely specify the conditions that must be met before requested data is transmitted. In the context of the PCF KIT it is mandatory to follow the Catena-X Data Exchange Governance. Details can be found [here](https://catenax-ev.github.io/docs/regulatory-framework/20000ft/data-exchange-governance#2-contractual-parameters-for-data-exchanges). The Membership Credential additionally ensures that the requester is an active member of Catena-X.
 
 The diagram shown here illustrates the interaction between the PCF KIT and the other Catena-X components.
-![Business Architecture](resources/adoption-view/BusinessArchitecture.png)
+![Business Architecture](./resources/adoption-view/BusinessArchitecture.png)
 
 ## STANDARDS
 
