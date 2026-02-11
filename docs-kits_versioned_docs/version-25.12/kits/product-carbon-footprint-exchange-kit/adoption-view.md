@@ -334,7 +334,7 @@ The complete description of the Catena-X PCF Data Model can be downloaded [here]
 
 #### Example Payload
 
-The following json shows an exemplary payload for a requested PCF value containing all possible properties, mandatory and optional.
+The following JSON shows an exemplary payload for a requested PCF value containing all possible properties, mandatory and optional.
 
 <details>
   <summary>Payload</summary>
