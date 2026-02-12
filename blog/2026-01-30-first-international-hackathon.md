@@ -30,6 +30,10 @@ Let's have the **first international Open Source Hackathon of Eclipse Tractus-X 
 
 **[Register Here](https://forms.office.com/e/LkYbasfXJA)** 📋✍🏻
 
+## 📅 Agenda
+
+![Agenda Hackathon](./AgendaHackathon.png)
+
 ### ‼️ IMPORTANT
 
 - **Please reserve this date if you're willing to come!** 🗓️
@@ -37,7 +41,7 @@ Let's have the **first international Open Source Hackathon of Eclipse Tractus-X 
 - This is a **"WORKING/DEVELOPING" hands-on event** — send this to your developers!
 - It is meant to be **technical** and we will be solving two challenges together
 - This is **NOT a "business oriented"** event
-- **SO BRING YOUR LAPTOPS!** 💻 And lots of motivation to code and learn!
+- **SO BRING YOUR LAPTOPS!** 💻 And lots of motivation to code and learn! You can use your favorite IDE (we recommend visual studio code!)
 
 ## 📢 Official Communications
 
