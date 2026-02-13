@@ -36,6 +36,29 @@ const sidebars = {
     kits: [
         {
           type: 'category',
+          label: 'Modular Engineering',
+          link: {
+            type: 'doc',
+            id: 'kits/modular-engineering-kit/adoption-view'
+          },
+          collapsed: true,
+          items: [
+            'kits/modular-engineering-kit/changelog',
+            {
+              type: 'category',
+              label: 'Adoption View',
+              link: {
+                type: 'doc',
+                id: 'kits/modular-engineering-kit/adoption-view'
+              },
+              items: [
+                'kits/modular-engineering-kit/adoption-view',
+              ]
+            }
+          ]
+        },
+        {
+          type: 'category',
           label: 'AI Service KIT',
           link: {
             type: 'doc',
@@ -53,7 +76,6 @@ const sidebars = {
               },
               items: [
                 'kits/ai-service-kit/adoption-view/adoption-view',
-                'kits/ai-service-kit/adoption-view/glossary'
               ]
             },
             {
