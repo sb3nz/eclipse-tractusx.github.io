@@ -980,6 +980,41 @@ export const kitsData = {
         }
       }
     ],
+    "engineering": [
+      {
+        id: 'modular-engineering',
+        name: 'MODULAR ENGINEERING KIT',
+        logo: ModularEngineeringKITLogo,
+        logoLicencse: {
+          type: 'CC-BY-4.0',
+          authors: '2026 Eclipse Tractus-X Contributors',
+          licenseUrl: 'https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/blob/main/static/img/kits/modular-engineering/modular-engineering-kit-raw-logo.svg.license',
+          sourceUrl: 'https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/blob/main/static/img/kits/modular-engineering/modular-engineering-kit-raw-logo.svg',
+          originalSourceUrl: 'https://www.svgrepo.com/svg/368275/gantt-solid',
+        },
+        logoHeight: 100,
+        logoWidth: 100,
+        route: '/docs-kits/kits/modular-engineering-kit/adoption-view',
+        colors: {
+          primary: '#bdbbd7',
+          gradient: 'linear-gradient(135deg, #9694ac 0%, #bdbbd7 100%)'
+        },
+        maturity: {
+          currentLevel: 'Sandbox',
+          graduationStatus: 'draft'
+        },
+        deprecated: false,
+        domain: 'Engineering',
+        industries: ['automotive','aerospace', 'railway'],
+        description: 'Defines standard ways for the orchestration of engineering activities in federated development ecosystems.',
+        metadata: {
+          created: '2026-02-13',
+          lastUpdated: '2026-02-13',
+          latestVersion: '0.0.1',
+          new: true
+        }
+      }
+    ],
     "semiconductor": [],
     "construction": [],
     "automotive": [],
