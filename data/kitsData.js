@@ -1026,13 +1026,28 @@ export const industries = [
     description: 'Industry Specific KITs for manufacturing and production environments, focusing on shop floor operations, industrial equipment integration, and production optimization. Enable smart manufacturing, flexible production networks, and real-time operational data exchange.',
     icon: PrecisionManufacturing,
     gradient: 'linear-gradient(135deg, #1D71B8, #5ba9de, #c1d100)',
-    dataspaces: []
-    //    colors: {
-    //  layer1: '#81d100',
-    //  layer2: '#c1d100',
-    //  layer3: '#5ba9de',
-    //  layer4: '#1D71B8'
-    //},
+    dataspaces: [
+      {
+        name: "Factory-X",
+        url: "https://factory-x.org",
+        gradient: 'linear-gradient(135deg, #ffa600, #b3cb2d)',
+        logo: {
+          src: 'https://factory-x.org/wp-content/uploads/factory-x-logo.svg',
+          alt: 'Factory-X Logo',
+          width: 100,
+          height: 70
+        },
+        colors: {
+          layer1: '#81d100',
+          layer2: '#c1d100',
+          layer3: '#5ba9de',
+          layer4: '#1D71B8'
+        },
+        subtitle: 'The Digital Ecosystem',
+        description: 'Project which aims to build an open and collaborative digital ecosystem for factory outfitters and operators, based on Catena-X and Platform Industry 4.0 concepts.',
+        kits: ['connector', 'digital-twin', 'maas', 'pcf', 'modular-production', 'eco-pass']
+      }
+    ]
   },
   {
     id: 'semiconductor',
