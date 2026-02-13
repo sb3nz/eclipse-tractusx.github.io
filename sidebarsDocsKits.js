@@ -59,6 +59,29 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Engineering as a Service',
+          link: {
+            type: 'doc',
+            id: 'kits/engineering-as-a-service-kit/adoption-view'
+          },
+          collapsed: true,
+          items: [
+            'kits/engineering-as-a-service-kit/changelog',
+            {
+              type: 'category',
+              label: 'Adoption View',
+              link: {
+                type: 'doc',
+                id: 'kits/engineering-as-a-service-kit/adoption-view'
+              },
+              items: [
+                'kits/engineering-as-a-service-kit/adoption-view',
+              ]
+            }
+          ]
+        },
+        {
+          type: 'category',
           label: 'AI Service KIT',
           link: {
             type: 'doc',
