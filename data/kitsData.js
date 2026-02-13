@@ -1013,6 +1013,39 @@ export const kitsData = {
           latestVersion: '0.0.1',
           new: true
         }
+      },
+      {
+        id: 'engineering-as-a-service',
+        name: 'ENGINEERING AS A SERVICE KIT',
+        logo: ModularEngineeringKITLogo,
+        logoLicencse: {
+          type: 'CC-BY-4.0',
+          authors: '2026 Eclipse Tractus-X Contributors',
+          licenseUrl: 'https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/blob/main/static/img/kits/engineering-as-a-service/engineering-as-a-service-kit-raw-logo.svg.license',
+          sourceUrl: 'https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/blob/main/static/img/kits/engineering-as-a-service/engineering-as-a-service-kit-raw-logo.svg',
+          originalSourceUrl: 'https://www.svgrepo.com/svg/385262/engineering-protection-hold-hand-cog-technology',
+        },
+        logoHeight: 100,
+        logoWidth: 100,
+        route: '/docs-kits/kits/engineering-as-a-service-kit/adoption-view',
+        colors: {
+          primary: '#bdbbd7',
+          gradient: 'linear-gradient(135deg, #9694ac 0%, #bdbbd7 100%)'
+        },
+        maturity: {
+          currentLevel: 'Sandbox',
+          graduationStatus: 'draft'
+        },
+        deprecated: false,
+        domain: 'Engineering',
+        industries: ['automotive','aerospace', 'railway'],
+        description: 'Defines the minimum viable logic for federated engineering service brokerage.',
+        metadata: {
+          created: '2026-02-13',
+          lastUpdated: '2026-02-13',
+          latestVersion: '0.0.1',
+          new: true
+        }
       }
     ],
     "semiconductor": [],
