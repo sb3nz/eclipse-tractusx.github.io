@@ -30,10 +30,6 @@ sidebar_position: 1
 
 Welcome to the **Modular Engineering KIT Adoption View**. This view provides business value, strategic benefits, and use cases for business stakeholders and decision-makers.
 
-:::info Target Audience
-Business Managers, Product Owners, Solution Architects, Industry Experts, and Decision Makers.
-:::
-
 ---
 
 ## Vision & Mission
@@ -117,35 +113,6 @@ This enables the orchestration of **federated development ecosystems**, where ea
 
 ---
 
-## Use Cases
-
-### Primary Use Case: [Use Case Name]
-
-**Description**: [Use case description]
-
-**Actors**: [Actor 1], [Actor 2], [Actor 3]
-
-**Process Flow**:
-
-1. [Step 1 description]
-2. [Step 2 description]
-3. [Step 3 description]
-
-**Business Outcomes**: [Key outcomes]
-
-**Success Metrics**: [Key metrics]
-
-### Secondary Use Case: [Use Case Name]
-
-[Same structure as primary use case]
-
-### Additional Use Cases
-
-1. **[Use Case 3]**: [Brief description]
-2. **[Use Case 4]**: [Brief description]
-
----
-
 ## Business Processes
 
 1. **Requirements Definition** – A development (with demand for modular engineering acitivities) is initialized by a set of requirements.
@@ -171,12 +138,12 @@ Deliverables: Jointly refined model specifications and GitHub repository links.
 
 Modular Engineering acts as a **collaboration orchestration KIT** within the Tractus-X engineering ecosystem, providing the framework for federated, collaborative development. Its functionalities are designed to connect and synergize with other Tractus-X KITs, creating an integrated engineering value chain:
 
-### 1. Connection with [Product Portfolio Management [PPM]](https://github.com/eclipse-tractusx/sig-release/issues/1554)
+### 1. Connection with Product Portfolio Management (PPM)
 - **Modular Engineering** builds and orchestrates concrete engineering procedures (HOW) based on the elements (processes & products) provided by **PPM** (WHAT).  
 - More percise: A modular development is composed of a set of engineering activities (processes/tasks) and corresponding objects (products/sub-systems) that are instantiated under a PPM-managed lifecycle. In Modular Engineering, they are selected, combined and orchestrated in a way so they meet concrete **requirements**.
 - Feedback on progress, design maturity, and engineering performance is continuously reported back to PPM.
 
-### 2. Connection with [Engineering as a Service (EaaS)](https://github.com/eclipse-tractusx/sig-release/issues/1552) 
+### 2. Connection with Engineering as a Service (EaaS)
 - **Modular Engineering** defines *what* is to be done (tasks, interfaces, modular objects), while **EaaS** defines *who* performs it.  
 - The EaaS KIT leverages Modular Engineering’s task definitions to identify, match, and contract suitable partners/service providers. The results are fed back into ME’s execution environment and utilized within the project context.
 
@@ -190,10 +157,6 @@ Modular Engineering acts as a **collaboration orchestration KIT** within the Tra
 ---
 
 ## Standards
-
-:::warning Industry-Specific Standards
-For industry-specific standards, refer to the [Industry Extensions](https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/tree/main/docs-kits/kit-template/industry-extensions) section.
-:::
 
 ### Supported Standards
 
