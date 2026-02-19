@@ -1,5 +1,7 @@
 ---
+id: adoption-view
 title: Adoption View
+description: Engineering as a Service KIT
 sidebar_position: 1
 ---
 
@@ -26,7 +28,11 @@ sidebar_position: 1
 
 ## Adoption View
 
-![KIT NAME Icon](@site/static/img/kits-2.0/tx-black-kit.svg)
+import Kit3DLogo from '@site/src/components/2.0/Kit3DLogo';
+import KitMetadataBadges from '@site/src/components/2.0/KitMetadataBadges';
+
+<KitMetadataBadges kitId="engineering-as-a-service" />
+<Kit3DLogo kitId="engineering-as-a-service" />
 
 Welcome to the **Engineering as a Service KIT Adoption View**. This view provides business value, strategic benefits, and use cases for business stakeholders and decision-makers.
 

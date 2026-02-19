@@ -1,5 +1,7 @@
 ---
+id: adoption-view
 title: Adoption View
+description: Modular Engineering KIT
 sidebar_position: 1
 ---
 
@@ -26,7 +28,11 @@ sidebar_position: 1
 
 ## Adoption View
 
-![KIT NAME Icon](@site/static/img/kits-2.0/tx-black-kit.svg)
+import Kit3DLogo from '@site/src/components/2.0/Kit3DLogo';
+import KitMetadataBadges from '@site/src/components/2.0/KitMetadataBadges';
+
+<KitMetadataBadges kitId="modular-engineering" />
+<Kit3DLogo kitId="modular-engineering" />
 
 Welcome to the **Modular Engineering KIT Adoption View**. This view provides business value, strategic benefits, and use cases for business stakeholders and decision-makers.
 
