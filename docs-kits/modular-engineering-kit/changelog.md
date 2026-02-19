@@ -1,3 +1,7 @@
+import Kit3DLogo from '@site/src/components/2.0/Kit3DLogo';
+
+<Kit3DLogo kitId="modular-engineering" />
+
 # Changelog
 
 All notable changes to this KIT will be documented in this file.
