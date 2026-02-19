@@ -39,7 +39,7 @@ const sidebars = {
           label: 'Modular Engineering',
           link: {
             type: 'doc',
-            id: 'kits/modular-engineering-kit/adoption-view'
+            id: 'kits/modular-engineering-kit/adoption-view/adoption-view'
           },
           collapsed: true,
           items: [
@@ -49,10 +49,10 @@ const sidebars = {
               label: 'Adoption View',
               link: {
                 type: 'doc',
-                id: 'kits/modular-engineering-kit/adoption-view'
+                id: 'kits/modular-engineering-kit/adoption-view/adoption-view'
               },
               items: [
-                'kits/modular-engineering-kit/adoption-view',
+                'kits/modular-engineering-kit/adoption-view/adoption-view',
               ]
             }
           ]
@@ -62,7 +62,7 @@ const sidebars = {
           label: 'Engineering as a Service',
           link: {
             type: 'doc',
-            id: 'kits/engineering-as-a-service-kit/adoption-view'
+            id: 'kits/engineering-as-a-service-kit/adoption-view/adoption-view'
           },
           collapsed: true,
           items: [
@@ -72,10 +72,10 @@ const sidebars = {
               label: 'Adoption View',
               link: {
                 type: 'doc',
-                id: 'kits/engineering-as-a-service-kit/adoption-view'
+                id: 'kits/engineering-as-a-service-kit/adoption-view/adoption-view'
               },
               items: [
-                'kits/engineering-as-a-service-kit/adoption-view',
+                'kits/engineering-as-a-service-kit/adoption-view/adoption-view',
               ]
             }
           ]
