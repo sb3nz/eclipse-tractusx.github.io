@@ -1,8 +1,8 @@
+# Changelog
+
 import Kit3DLogo from '@site/src/components/2.0/Kit3DLogo';
 
 <Kit3DLogo kitId="engineering-as-a-service" />
-
-# Changelog
 
 All notable changes to this KIT will be documented in this file.
 
