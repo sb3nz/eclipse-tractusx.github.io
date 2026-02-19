@@ -99,6 +99,7 @@ const sidebars = {
               },
               items: [
                 'kits/ai-service-kit/adoption-view/adoption-view',
+                'kits/ai-service-kit/adoption-view/glossary'
               ]
             },
             {
