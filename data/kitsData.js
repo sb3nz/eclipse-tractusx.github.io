@@ -79,6 +79,7 @@ import DataDrivenQualityLogo from "@site/static/img/kits/data-driven-quality-man
 import TraceabilityKitLogo from "@site/static/img/kits/traceability/traceability-kit-raw-logo.svg";
 import DataChainKitLogo from "@site/static/img/kits/data-chain/data-chain-kit-raw-logo.svg";
 import EcoPassKitLogo from "@site/static/img/kits/eco-pass/eco-pass-kit-raw-logo.svg";
+import EngineeringAsAServiceKITLogo from "@site/static/img/kits/engineering-as-a-service/engineering-as-a-service-kit-raw-logo.svg";
 import PCFKitLogo from "@site/static/img/kits/pcf/pcf-kit-raw-logo.svg";
 import PurisKitLogo from "@site/static/img/kits/puris/puris-kit-raw-logo.svg";
 import DCMKitLogo from "@site/static/img/kits/demand-and-capacity-management/demand-and-capacity-management-kit-raw-logo.svg";
@@ -86,6 +87,7 @@ import ESSKitLogo from "@site/static/img/kits/ess/ess-kit-raw-logo.svg";
 import LogisticsKitLogo from "@site/static/img/kits/logistics/logistics-kit-raw-logo.svg";
 import MaaSKitLogo from "@site/static/img/kits/manufacturing-as-a-service/manufacturing-as-a-service-kit-raw-logo.svg";
 import ModelBasedProductionLogo from "@site/static/img/kits/model-based-production/model-based-production-kit-raw-logo.svg";
+import ModularEngineeringKITLogo from "@site/static/img/kits/modular-engineering/modular-engineering-kit-raw-logo.svg";
 import ModularProductionLogo from "@site/static/img/kits/modular-production/modular-production-kit-raw-logo.svg";
 import OSIMKitLogo from "@site/static/img/kits/osim/osim-kit-raw-logo.svg";
 import RequirementsKitLogo from "@site/static/img/kits/requirements/requirements-kit-raw-logo.svg";
@@ -1005,7 +1007,7 @@ export const kitsData = {
         },
         deprecated: false,
         domain: 'Engineering',
-        industries: ['automotive','aerospace', 'railway'],
+        industries: ['automotive'],
         description: 'Defines standard ways for the orchestration of engineering activities in federated development ecosystems.',
         metadata: {
           created: '2026-02-13',
@@ -1017,7 +1019,7 @@ export const kitsData = {
       {
         id: 'engineering-as-a-service',
         name: 'ENGINEERING AS A SERVICE KIT',
-        logo: ModularEngineeringKITLogo,
+        logo: EngineeringAsAServiceKITLogo,
         logoLicencse: {
           type: 'CC-BY-4.0',
           authors: '2026 Eclipse Tractus-X Contributors',
@@ -1038,7 +1040,7 @@ export const kitsData = {
         },
         deprecated: false,
         domain: 'Engineering',
-        industries: ['automotive','aerospace', 'railway'],
+        industries: ['automotive'],
         description: 'Defines the minimum viable logic for federated engineering service brokerage.',
         metadata: {
           created: '2026-02-13',
