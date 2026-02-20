@@ -96,7 +96,7 @@ import AgentsKitLogo from "@site/static/img/kits/agents/agents-kit-raw-logo.svg"
 import BehaviorTwinKitLogo from "@site/static/img/kits/behavior-twin/behavior-twin-kit-raw-logo.svg";
 import CircularityKitLogo from "@site/static/img/kits/circularity/circularity-kit-raw-logo.svg";
 import CustomsKitLogo from "@site/static/img/kits/customs/customs-kit-raw-logo.svg";
-import GeometryKitLogo from "@site/static/img/kits/geometry/geometry-kit-logo.svg"; 
+import GeometryKitLogo from "@site/static/img/kits/geometry/geometry-kit-logo.svg";
 import AiServiceKitLogo from "@site/static/img/kits/ai-service/ai-service-kit-raw-logo.svg";
 
 // Import Material-UI icons for industries
@@ -996,7 +996,7 @@ export const kitsData = {
         },
         logoHeight: 100,
         logoWidth: 100,
-        route: '/docs-kits/kits/modular-engineering-kit/adoption-view',
+        route: '/docs-kits/next/kits/modular-engineering-kit/adoption-view',
         colors: {
           primary: '#bdbbd7',
           gradient: 'linear-gradient(135deg, #9694ac 0%, #bdbbd7 100%)'
@@ -1029,7 +1029,7 @@ export const kitsData = {
         },
         logoHeight: 100,
         logoWidth: 100,
-        route: '/docs-kits/kits/engineering-as-a-service-kit/adoption-view',
+        route: '/docs-kits/next/kits/engineering-as-a-service-kit/adoption-view',
         colors: {
           primary: '#bdbbd7',
           gradient: 'linear-gradient(135deg, #9694ac 0%, #bdbbd7 100%)'
